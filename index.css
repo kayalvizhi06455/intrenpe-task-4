@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  #gameBoard {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    background-color: #00aaff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .disc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
